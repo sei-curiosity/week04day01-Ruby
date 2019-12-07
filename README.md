@@ -81,7 +81,7 @@ name = "Maha"
 ```
 * Written in snake_case. That means all lower case with words separated by underscores.
 ```rb
-first_name = "Sami"
+first_name = "Salman"
 ```
 * Variable names should still be semantic
 * Variables are still assigned using a single equals sign ( = )
@@ -180,11 +180,11 @@ Use single quotes for strings that are not interpolated.
 Sometimes you will want to print out a string that incorporates a variable. For example...
 
 ```rb
-my_name = "Yassir"
-# => "Yassir"
+my_name = "Ahmed"
+# => "Ahmed"
 
 puts "Hi my name is: " + my_name
-# Hi my name is: Yassir
+# Hi my name is: Ahmed
 # => nil
 ```
 
