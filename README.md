@@ -1064,7 +1064,7 @@ Use `map` to do the following...
   #=> [-89.2, -17.8, 0, 60, 100]
   ```
 
-
+<!--
 ## Methods
 
 As stated before, everything in Ruby is an object so there is no distinction in this language between functions and methods. Under the hood, even seemingly stand-alone functions are in fact associated with an object. The convention, however, is to call these methods.
@@ -1184,7 +1184,7 @@ This is similar to adding the bang to the end of a method. Predicate methods usi
   # => "A thing"
   something.nil?
   # => false
-```
+``` -->
 
 ## Ruby Code Style Guide
 
