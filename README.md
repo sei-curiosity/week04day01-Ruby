@@ -1172,6 +1172,8 @@ add(1, 2, 3)
 
 Notice we do not need the keyword ```return```. The last line hit by the method will always be the return value. This is called an implicit return.
 
+
+``` -->
 ### Predicate Methods (?)
 
 This is similar to adding the bang to the end of a method. Predicate methods using `?` returns a boolean value.
@@ -1184,7 +1186,6 @@ This is similar to adding the bang to the end of a method. Predicate methods usi
   # => "A thing"
   something.nil?
   # => false
-``` -->
 
 ## Ruby Code Style Guide
 
@@ -1204,7 +1205,7 @@ Here are the most important rules
 * A multi-line must use `do` and `end`
 * If an argument is unused it should start with `_` (or just be named `_`)
   * `hash.each { |_key, val| puts val }`
-
+<!--
 **Methods**
 
 * A method should end with a `?` if an only if it always returns a boolean
@@ -1217,4 +1218,5 @@ Here are the most important rules
   * `super` is one possible exception
 * **Do** use parens for every method except for DSLs (and a small list of other common methods)
   * `attr_reader`, `puts`, `require`, `include`, `it`, `has_many`, ...
+-->
 
