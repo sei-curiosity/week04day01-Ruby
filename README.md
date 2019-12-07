@@ -1173,7 +1173,7 @@ add(1, 2, 3)
 Notice we do not need the keyword ```return```. The last line hit by the method will always be the return value. This is called an implicit return.
 
 
-``` -->
+-->
 ### Predicate Methods (?)
 
 This is similar to adding the bang to the end of a method. Predicate methods using `?` returns a boolean value.
@@ -1186,7 +1186,7 @@ This is similar to adding the bang to the end of a method. Predicate methods usi
   # => "A thing"
   something.nil?
   # => false
-
+``` 
 ## Ruby Code Style Guide
 
 The Ruby community is very opinionated about styling.  As you are starting out, you MUST follow [these rules](https://github.com/bbatsov/ruby-style-guide).
