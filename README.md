@@ -33,6 +33,19 @@ Performing everyday tasks, while intricate and complex, come to you naturally.
 
 > "Ruby is simple in appearance, but is very complex inside, just like our human body." — Yukihiro "Matz" Matsumoto
 
+## Learning a New Language
+
+If you were going to learn a new programming language, what questions would you have? You've already learned one programming language, and you're about to learn another! Think about the things you now know how to do in JavaScript. With this knowledge, consider what you might want to know about Ruby. Take a few minutes to think about some questions that you have about this new language.
+
+Examples:
+
+- How do I define a variable in Ruby? Is it different than in JavaScript?
+- Where do I go for information about Ruby? What kind of documentation exists for it?
+- Does Ruby have functions?
+
+Ruby and JavaScript each have unique features that you may find useful or ineffective. At the end of the day, you'll find that they share many qualities.
+
+
 #### Flexibility
 
 Ruby is flexible making it ideal for coding. What this means is that there are no* blackboxes in Ruby. You can open up anything and change it. This could be a powerful tool in the hands of a skilled Rubyist.
