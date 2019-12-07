@@ -756,7 +756,7 @@ classroom = {
 locations = {
  location_one: "Gotham",  
  location_two: "NY",  
- location_three: "Jeddah"  
+ location_three: "Riyadh"  
 }  
 # => {:location_one=>"Gotham", :location_two=>"NY", :location_three=>"Jeddah"}
 
