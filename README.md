@@ -188,7 +188,8 @@ Use single quotes for strings that are not interpolated.
 
 > Warning: Backticks are not used for strings! They are used to execute commands.
 
-#### String Interpolation
+#### String Interpolation 
+Interpolation requires double quotes
 
 Sometimes you will want to print out a string that incorporates a variable. For example...
 
