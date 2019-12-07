@@ -372,18 +372,18 @@ Pretty similar to Javascript, with some differences.
 - Begin blocks using if, elsif (no second "e"!) and else
 - We close the whole loop using end
     - This will be used throughout Ruby when dealing with code blocks (e.g., method/function)
-Here's an example where we check for height at a roller coaster...
+...
 
 ```ruby
-puts "Welcome to the Iron Rattler! How tall are you (in feet)?"
-height = gets.chomp.to_i
+puts "Enter your age "
+age = gets.chomp.to_i
 
-if height < 4
-  puts "Sorry, you'll fly out of your seat if we let you on."
-elsif height < 7
-  puts "All aboard!"
+if age < 18
+  puts "Sorry, You cann't drive."
+elsif age >= 18
+  puts "Of course, You can drive"
 else
-  puts "If you value your head, you should not get on this ride."
+  puts "input is invalid"
 end
 ```
 
@@ -425,6 +425,47 @@ if num.even?
   "#{num} is even!"
 else
   "#{num} is odd!"
+end
+```
+#### Case statement
+
+The case statement in Ruby, can be seen as a shorthand for a series of `if` statements. Unlike other languages, there is no fallthrough. Only the first matching case will be executed.
+
+Example:
+
+```ruby
+num_of_wheels = 1
+
+case num_of_wheels
+when 1
+  p "Unicycle"
+when 2
+  p "Bicycle"
+when 4
+  p "Car"
+else
+  p "I'm not sure"
+end
+```
+
+##### A More Compact Syntax
+
+There are times when there are a large number of small `when` clauses. Such a case statement easily grows too large to fit on the screen. When this is the case (no pun intended), you can use the `then` keyword to put the body of the `when` clause on the same line.
+
+While this makes for some very dense code, as long as each when clause is very similar, it actually becomes more readable.
+
+When you should use single-line and multi-line when clauses are up to you, it's a matter of style. However, mixing the two is not recommended - a case statement should follow a pattern to be as readable as possible.
+
+Example:
+
+```ruby
+person_name = "Salman"
+
+case person_name
+when "Ahmed" then p "Lead Instructor"
+when "Salman" then p "IA"
+else
+  p "Student"
 end
 ```
 
