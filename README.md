@@ -429,6 +429,7 @@ end
 ```
 
 ### The Bang Symbol (!)
+Exclamation mark
 
 All of the Ruby data types we have discussed so far are mutable.
 
