@@ -5,7 +5,7 @@
 ![](images/ruby.gif)
 
 ## Lesson Objectives
-
+- [Installing Ruby](install-ruby.md)
 - [Running your Ruby Scripts](how-to-run-ruby.md)
 - Compare/contrast Ruby and Javascript as programming languages
 - Identify specific differences between Ruby and Javascript in the following areas...
