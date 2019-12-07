@@ -39,7 +39,7 @@ Ruby is flexible making it ideal for coding. What this means is that there are n
 
 #### Readability
 
-Ruby is hyper readable, the lack of `;`, `()`, keywords like `var`, `return`, `function` mean that your semantic naming of methods and variables combined with the semantic nature of the core library methods result in code that feels more like English than a programming language.
+Ruby is hyper readable, the lack of `;`, `()`, keywords like `let`, `return`, `function` mean that your semantic naming of methods and variables combined with the semantic nature of the core library methods result in code that feels more like English than a programming language.
 
 ![](images/pair.jpg)
 
