@@ -694,8 +694,8 @@ sei_class[:teacher]
 Modifying hash values...
 
 ```ruby
-sei_class[:teacher] = "Ebere"
-# => "Ebere"
+sei_class[:teacher] = "Maha"
+# => "Maha"
 ```
 
 You can also use strings as hash keys... 
@@ -721,8 +721,8 @@ sei_class["teacher"]
 
 And modify...
 ```
-sei_class["teacher"] = "Ebere"
-# => "Ebere"
+sei_class["teacher"] = "Maha"
+# => "Maha"
 ```
 
 **Note the use of => (or "hash rockets") instead of : when using strings as keys.**
