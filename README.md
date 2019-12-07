@@ -258,6 +258,16 @@ Ruby uses same arithmetic operators as Javascript
 3 ** 2 # Exponentiation
 # => 9
 ```
+Examples:
+
+```ruby
+p 0.1
+p 42
+p 124971240712
+p 1_234_567
+```
+Underscores are ignored in Ruby numbers. Making them useful for readability.
+
 
 ### Booleans
 
